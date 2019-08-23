@@ -89,6 +89,7 @@ header .botonMenu i {
 .btnMenu {
     /* color: #fff !important; */
     color: #3e6eec;
+    text-align: center !important;
 }
 
 .nameCompany {
@@ -508,7 +509,7 @@ DISEÑO Y AJUSTES PARA MOVILES
 @media (max-width:768px) {
     header .grid-container {
         display: grid;
-        grid-template-columns: 4fr 1fr;
+        grid-template-columns: 4fr 1fr 2fr 1fr;
     }
     header .grid-item {
         text-align: left;
