@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://bartertechnology.com/</loc>
+  <lastmod>2019-08-16T14:30:38+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://bartertechnology.com/index.html</loc>
+  <lastmod>2019-08-16T14:30:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bartertechnology.com/barterTech.html</loc>
+  <lastmod>2019-08-16T15:46:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bartertechnology.com/servicios.html</loc>
+  <lastmod>2019-08-16T14:30:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bartertechnology.com/servicioMarketing.html</loc>
+  <lastmod>2019-08-17T14:45:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bartertechnology.com/servicioDesarrollo.html</loc>
+  <lastmod>2019-08-16T14:30:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bartertechnology.com/servicioDesarrolloApp.html</loc>
+  <lastmod>2019-08-16T14:30:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

@@ -1,0 +1,53 @@
+
+---Upload files---
+Redux file was not uploaded. Error: El archivo indicado no cumple los requisitos de subida.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://bartertechnology.com/blog/wordpress
+Data file = /var/www/html/blog/wordpress/wp-content/uploads/2019/08/sagabloglight.WordPress.2019-06-20.xml
+Widget file = /var/www/html/blog/wordpress/wp-content/uploads/2019/08/sagablog-light.wdvillage.com-widgets.wie
+Customizer file = /var/www/html/blog/wordpress/wp-content/uploads/2019/08/sagablog-light-export.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar : 
+
+Buscar - No Title - Imported
+Trending Posts - Popular posts - Imported
+Categorías - No Title - Imported
+Nube de etiquetas - Tags - Imported
+iscw_insta_grid - Instagram - Site does not support widget
+Social Icons by WPZOOM - Follow me - Imported
+
+Contact Page Widget : 
+
+wdv_about_me_widget - About me - Site does not support widget
+Social Icons by WPZOOM - No Title - Imported
+
+Footer Full Width Widget : 
+
+iscw_insta_grid - No Title - Site does not support widget
+
+Footer Widgets : 
+
+wdv_about_me_widget - About me - Site does not support widget
+Nube de etiquetas - Tags - Imported
+Categorías - Categories - Imported
+Social Icons by WPZOOM - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!

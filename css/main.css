@@ -1,0 +1,618 @@
+/*=============================================
+GLOBAL
+=============================================*/
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+select,
+button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a:visited,
+a:link,
+a:focus,
+a:hover,
+a:active {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* ============================================================
+fonts
+=============================================================== */
+@font-face {
+    font-family: Quicksand_Bold;
+    src: url(./../fonts/Quicksand-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: Quicksand_regular;
+    src: url(./../fonts/Quicksand-Regular.ttf);
+  }
+  @font-face {
+    font-family: Quicksand_medium;
+    src: url(./../fonts/Quicksand-Medium.ttf);
+  }
+
+.logotipo {
+    width: 40%;
+    filter: invert(100%)
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    /* background: rgba(2, 34, 66, .9); */
+    background: #fff;
+    /* padding: 9px; */
+}
+
+header .grid-container {
+    display: grid;
+    align-content: center;
+    align-items: center;
+    grid-template-columns: 3fr 5fr 1fr 1fr;
+}
+
+header .grid-item {
+    text-align: center;
+}
+
+header .idiomas span {
+    cursor: pointer;
+}
+
+header .botonMenu i {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.btnMenu {
+    /* color: #fff !important; */
+    color: #3e6eec;
+}
+
+.nameCompany {
+    font-weight: 800;
+    color: #fff;
+}
+.btnForm{
+    background: #3e6eec;
+    color: #fff;
+}
+.logoCompany{
+    width: 80%;
+    height: auto;
+}
+
+.selected{
+    background: #3e6eec
+}
+
+#videoService{
+   width: 100%;
+   margin-top: -20%;
+}
+/*=============================================
+MENU
+=============================================*/
+
+nav.menu {
+    position: fixed;
+    z-index: 10;
+    top: 86px;
+    background-color: rgb(2, 34, 66);
+    /* display: none; */
+}
+
+nav.menu li>.nav-link {
+    transition: .5s all;
+}
+
+nav.menu li:hover>.nav-link {
+    background: #197DB1;
+    transition: .5s all;
+}
+
+.menuMovil {
+    /* display:none; */
+    position: fixed;
+    background: rgba(0, 0, 0, .8);
+    width: 100%;
+    height: 90vh;
+    z-index: 2;
+    overflow-x: hidden;
+}
+
+.construccion {
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: -10px;
+    margin-left: -150px;
+}
+
+.fundamentos .fas{
+    font-size: 45px;
+   
+}
+.fundamentos .fa-hands-helping,.fundamentos .fa-microchip  {
+    margin-top: 12px;
+
+}
+
+/*=============================================
+BANNER
+=============================================*/
+
+.banner .fade-slider {
+    position: relative;
+}
+.banner{
+    margin-top: 87px;
+}
+
+
+/* ==================
+servicios planes 
+=====================*/
+
+.infoEmpresa .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.infoEmpresa .grid-item {
+    position: relative;
+    cursor: pointer;
+}
+
+.infoEmpresa .grid-item:nth-child(1) {
+    grid-column: 1 / span 3;
+}
+
+.infoEmpresa .grid-item:nth-child(2) {
+    grid-column: 4 / span 3;
+    height: 320px;
+    overflow: hidden;
+}
+
+.infoEmpresa .grid-item:nth-child(3) {
+    grid-column: 1 / span 3;
+}
+
+.infoEmpresa .grid-item:nth-child(4) {
+    grid-column: 4 / span 3;
+}
+
+.infoEmpresa .grid-item figure {
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    color: white;
+}
+
+.infoEmpresa .grid-item figure h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px !important;
+}
+
+.planesMovil li {
+    overflow: hidden;
+}
+
+.planesMovil img {
+    width: 200% !important;
+}
+
+.fundamentos{
+    font-size: 25px;
+    text-align: center;
+}
+/*=============================================
+SERVICIOS
+=============================================*/
+
+.servicios .row div[class*="col"] figure {
+    position: relative;
+    overflow: hidden;
+}
+
+.servicios .row div[class*="col"] figure img {
+    transform: scale(1, 1);
+    transition: 1s all;
+}
+
+.servicios .row div[class*="col"] figure img:hover {
+    transform: scale(1.1, 1.1);
+    transition: 1s all;
+}
+
+.servicios .row div[class*="col"] figure h1 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s all;
+}
+
+.servicios .row div[class*="col"] figure h1:hover {
+    filter: invert(100%);
+    transition: .3s all;
+}
+
+.servicios .row div[class*="col"] figure p {
+    background: black;
+    color: #aaa;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.servicios .row div[class*="col"] figure h3 {
+    background: #0077f0;
+    color: #fff !important;
+}
+
+.servicios .row div[class*="col"] figure h5 {
+    color: #777;
+}
+
+/* ===========
+eligenos
+====================== */
+.fondoeligenos{
+	position:fixed;
+	z-index:-1;
+	top:0;
+	left:0;
+	height:800px;
+	background-color:white;
+	background-image: url("./../img/fondoContacto.png");
+	background-position: center top;
+    background-repeat: repeat-y;
+   
+}
+
+.eligenos .grid-container{
+	display:grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+.eligenos .grid-item{
+	text-align:center;
+	color:white;
+}
+
+.eligenos .grid-item:nth-child(2){
+	position:relative; 
+	z-index:1;
+	/* top:-60px;  */
+	height:600px;
+	background:rgba(2, 34, 66, .95);;
+}
+
+
+.eligenos .infografia div[class*="col"]{
+	text-align:center;
+}
+
+.eligenos .infografia img{
+	border:3px solid white;
+}
+
+.eligenos{
+	position:relative;
+	/* margin-top:-80px; */
+}
+
+
+/* ===================
+Formulario contactenos
+======================*/
+.datosContactenos{
+    border-left: #aaa 1px solid;
+    text-align: left;
+    padding-left: 20px;
+}
+.datosContactenos div {
+    padding-bottom: 20px;
+}
+.datosContactenos a{
+    padding: 10px;
+    margin-right: 15px;
+}
+#honeypot {
+    display: none; /*makes the field not visible to humans*/
+  }
+
+
+  /* Page Marketing */
+  .textMarketing{
+      margin-top: 10%;
+  }
+/*=============================================
+FOOTER
+=============================================*/
+
+footer .grid-container{
+	display:grid;
+	grid-template-columns: 2fr 4fr 2fr;
+}
+
+footer .grid-item{
+	background-color: #00152b;
+	text-align:center;
+	color:white;
+}
+
+.redesMovil{
+	visibility: hidden;
+	position: fixed;
+	bottom:0px;
+	z-index:2;
+	width:100%;
+	background: #00152b;
+}
+
+textarea{
+	resize: none;
+}
+
+
+/*Pagina BarterTech */
+.bannerNosotros{
+    height: 450px;
+    background: url(../img/nosotros.jpg)no-repeat center center;
+    /* background-repeat: no-repeat; */
+    background-size: cover; 
+}
+
+.calidad {
+    font-size: 100px !important;
+    text-align: center;
+}
+.itemsInfografia{
+    justify-content: center; 
+}
+.itemsInfografia .card{
+margin-right: 10px;
+} 
+
+.nosotros hr{
+    width: 40%;
+    margin-left: 0px;
+    background: #00152b;
+}
+
+.nosotros{
+    text-align: justify;
+}
+.division {
+
+    height: 90%;
+    width: 1px;
+    background: #00152b;
+    margin-left: 50%;
+}
+
+.card-title{
+    text-align: center;
+
+}
+
+#myVideo {
+    width: 100%;
+    margin-top:64px;
+ 
+  }
+  .vermas{
+      visibility: hidden;
+  }
+
+  /* Blog */
+
+.bannerBlog{
+    background: url(./../img/bannerBlog.png) no-repeat center center;
+    background-size: cover;
+    height: 450px;
+    margin-top: 74px;
+    position: relative;
+}
+.tittleBanner{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+/* página Services */
+
+.bannerService{
+    position: relative;
+}
+.titleServices{
+
+    position: absolute;
+    left: 49%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: bold;
+    
+}
+.titleServices hr{
+    width: 50%;
+    background: #fff;
+
+}
+.fontTitle{
+    font-family: Quicksand_Bold
+}
+.fontBody{
+    font-family: Quicksand_Regular;
+}
+.fontBodyMedium{
+    font-family: Quicksand_medium;
+}
+
+/* pageServiceMarketing */
+.cabeceraCard{
+    background: #00152b;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0px 20px 0px 20px;
+    font-family:  Quicksand_Bold;
+    text-align: center;
+}
+
+.bodyCard li{
+    font-family: Quicksand_Regular;
+}
+
+.whatsappAtencion{
+    display: flex;
+    justify-content: center;
+}
+
+/* 
+======================
+DISEÑO Y AJUSTES PARA MOVILES
+===================
+*/
+
+@media (max-width:768px) {
+    header .grid-container {
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+    }
+    header .grid-item {
+        text-align: left;
+    }
+    .construccion {
+        font-size: 30px;
+        margin-left: -10px;
+        margin-top: -100px;
+    }
+    nav.menu {
+        top: 74px;
+    }
+    .nav{
+        display: inline;
+        font-size: 1.1em;
+    }
+    .infoEmpresa .grid-container{	
+        grid-template-columns: auto;
+    }
+    .infoEmpresa p {
+        text-align: justify !important;
+    }
+    .banner{
+        margin-top: 61px;
+    }
+    .datosContactenos{
+        border-top: #ccc 1px solid;
+        padding-left: 10px;
+        /* font-size: 14px; */
+        margin-top: 15px;
+        border-left: none;
+    }
+    .eligenos .grid-container{
+        grid-template-columns: auto;
+    }
+    footer .grid-container{
+		grid-template-columns: 1fr;
+	}
+    .redesMovil{
+        visibility: visible;
+        display: flex;
+    }
+    .lineaAtentcion, .whatsappAtencion{
+        text-align: center;
+    }
+    .eligenos .grid-item:nth-child(2){
+        height:500px;
+    }
+
+    .menuRedSocial{
+        display: inline-flex;
+    padding-left: 0px;
+
+    }
+
+    .vermas{
+        visibility:visible;
+    }
+.bannerNosotros{
+    height: 250px;
+}
+
+.itemsInfografia .card{
+    margin-top: 10px;
+    }
+
+    nav.menu {
+        display: none;
+    }
+}
+#videoService{
+    margin-top: -20%;
+ }
+.titleServices{
+    font-size: 55px;
+    top: 60%;
+}
+
+
+@media (max-width:380px) {
+    nav.menu {
+        top: 63px;
+    }
+    #videoService{
+        margin-top: 5%;;
+     }
+     .titleServices{
+        font-size: 15px;
+        top: 60%;
+    }
+    nav.menu {
+        display: none;
+    }
+}
+
+@media (max-width:320px) {
+    nav.menu {
+        top: 55px;
+    }
+    #videoService{
+        margin-top: 5%;
+     }
+     nav.menu {
+        display: none;
+    }
+    
+}
