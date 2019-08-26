@@ -193,10 +193,3 @@ $(".idiomaEs").click(function(){
 
 $("#redsocials").load("redsocials.html");
 $("#menu").load("menu.html");
-
-console.log($("#redsocials"));
-console.log($("#menu"));
-
-
-
-
