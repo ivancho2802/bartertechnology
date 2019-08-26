@@ -111,7 +111,7 @@ header .botonMenu i {
 
 #videoService{
    width: 100%;
-   margin-top: -20%;
+   margin-top: 6%;
 }
 /*=============================================
 MENU
@@ -592,7 +592,7 @@ DISEÑO Y AJUSTES PARA MOVILES
     }
 }
 #videoService{
-    margin-top: -20%;
+    margin-top: 6%;
  }
 .titleServices{
     font-size: 55px;
@@ -603,6 +603,10 @@ DISEÑO Y AJUSTES PARA MOVILES
 
     .banner{
         margin-top: 10%;
+    }
+    .titleServices{
+        font-size: 15px;
+        top: 60%;
     }
 }
 
