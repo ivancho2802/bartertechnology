@@ -120,7 +120,7 @@ MENU
 nav.menu {
     position: fixed;
     z-index: 10;
-    top: 86px;
+    /*top: 87px;*/
     background-color: rgb(2, 34, 66);
     /* display: none; */
 }
@@ -168,7 +168,7 @@ BANNER
     position: relative;
 }
 .banner{
-    margin-top: 87px;
+    margin-top: 5%;
 }
 
 
@@ -506,6 +506,17 @@ DISEÑO Y AJUSTES PARA MOVILES
 ===================
 */
 
+@media (min-width:1200px) {
+
+    nav.menu{
+        top: 86px !important;
+    }
+}
+@media (max-width:991px) {
+    nav.menu{
+        top: 53px;
+    }
+}
 @media (max-width:768px) {
     header .grid-container {
         display: grid;
@@ -533,7 +544,7 @@ DISEÑO Y AJUSTES PARA MOVILES
         text-align: justify !important;
     }
     .banner{
-        margin-top: 61px;
+        margin-top: 59px;
     }
     .datosContactenos{
         border-top: #ccc 1px solid;
@@ -588,6 +599,12 @@ DISEÑO Y AJUSTES PARA MOVILES
     top: 60%;
 }
 
+@media (max-width:572px) {
+
+    .banner{
+        margin-top: 10%;
+    }
+}
 
 @media (max-width:380px) {
     nav.menu {
