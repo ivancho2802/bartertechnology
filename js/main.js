@@ -195,17 +195,17 @@ $("#redsocials").load("redsocials.html");
 $("#menu").load("menu.html");
 
 
-var ancho = $(window).width();
+// var ancho = $(window).width();
 
-if(ancho > 900){
-	$('.slide-area').find('.pc').addClass('active1').siblings().removeClass('active1');
+// if(ancho > 900){
+// 	$('.slide-area').find('.pc').addClass('active1').siblings().removeClass('active1');
 
-}else if(ancho > 600 ){
-	$('.slide-area').find('.tablet').addClass('active1').siblings().removeClass('active1');
+// }else if(ancho > 600 ){
+// 	$('.slide-area').find('.tablet').addClass('active1').siblings().removeClass('active1');
 
-}else if(ancho > 450  ){
-	$('.slide-area').find('.phone').addClass('active1').siblings().removeClass('active1');
-}
+// }else if(ancho > 450  ){
+// 	$('.slide-area').find('.phone').addClass('active1').siblings().removeClass('active1');
+// }
 
 
 // console.log($( '.slide-area' ).width())
