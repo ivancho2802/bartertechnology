@@ -512,6 +512,30 @@ DISEÑO Y AJUSTES PARA MOVILES
         top: 86px !important;
     }
 }
+
+.pc, .tablet, .phone{
+    display: none;
+}
+
+.active1{
+    display: block;
+}
+/*.active{
+    display: none;
+}*/
+/*@media ( min-width:1100px)  
+    .slide-area .pc{
+        display: block !important;
+    }
+    .slide-area .tablet{
+        display: none !important;
+    }
+    .slide-area .phone{
+        display: none !important;
+    }
+}*/
+
+
 @media (max-width:991px) {
     nav.menu{
         top: 53px;
