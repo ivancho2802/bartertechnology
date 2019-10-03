@@ -292,7 +292,7 @@ eligenos
 	left:0;
 	height:800px;
 	background-color:white;
-	background-image: url("./../img/fondoContacto.png");
+	background-image: url("./../img/fondoContacto.jpf");
 	background-position: center top;
     background-repeat: repeat-y;
    
@@ -437,7 +437,7 @@ margin-right: 10px;
   /* Blog */
 
 .bannerBlog{
-    background: url(./../img/bannerBlog.png) no-repeat center center;
+    background: url(./../img/bannerBlog.jpf) no-repeat center center;
     background-size: cover;
     height: 450px;
     margin-top: 74px;
