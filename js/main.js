@@ -210,6 +210,5 @@ $("#menu").load("menu.html");
 
 // console.log($( '.slide-area' ).width())
 // let cTama
-// if()
-
+// if() 
 
