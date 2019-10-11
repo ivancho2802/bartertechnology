@@ -1,0 +1,39 @@
+groupdlscorp/*
+ps_groupdlscorp/*
+smarttime/*
+
+ehthumbs.db
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+*.log
+*.sql
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ignore private/secret files
+*.der
+*.key
+*.pem
+
+# -------------------------
+# BEGIN Whitelisted Files
+# -------------------------
