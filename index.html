@@ -6,6 +6,8 @@
     <meta name="keywords" content="Community manager cucuta, desarrollo de apps cucuta, agencia de marketing cucuta, diseño web cucuta, crear pagina web para mi negocio, marketing digital cucuta, bartertechnology, barter tech, barter technologysoloweb cucuta,  campañas de marketing cucuta, Diseño web, creación de páginas web, web impresionantes, elaboración de páginas web, web profesional, páginas web elegantes, páginas web sencillas y elegantes, páginas web bonitas, páginas web modernas, páginas web sencillas bartertechnology, barter tech, barter technology, solo web cucuta, paginas web cucuta,  campañas de marketing cucuta, Diseño web, creación de páginas web, web impresionantes, elaboración de páginas web, web profesional, páginas web elegantes, páginas web sencillas y elegantes, páginas web bonitas, páginas web modernas, páginas web sencillas"/>
     <meta name="description" content="Dedicada a desarrollar las ideas de nuestros clientes y diversificar sus mercados para captar nuevos usuarios. Brindamos la oportunidad de crear métodos más eficientes y seguros para incrementar su productividad y competencia en el mercado con bases tecnológicas"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144847358-1"></script>
     <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png"/>
     <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png"/>
     <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png"/>
@@ -26,6 +28,47 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css"/>
     <link rel="stylesheet" href="css/owl.theme.default.min.css"/>
     <link rel="stylesheet" href="css/style.css"/>
+
+    
+    <!-- Tags Google -->
+    <meta name="google-site-verification" content="dMedT5HJxN--czTxNL0Xg7KGkEWxA8SnyJ4k91pvmRU" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-144847358-1');
+    </script>
+
+    <!-- instalacion de pixel de facebook Facebook Pixel Code-->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '444138392896348');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=444138392896348&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- SECCION PARA GOOGLE ANALITICS -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-716056617"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-716056617');
+      console.log(window.dataLayer);
+    </script>
+    <!-- SECCION PARA GOOGLE ANALITICS -->
+
   </head>
   <body>
     <div class="btm_cntrl_menu">
@@ -183,7 +226,7 @@
     <div class="sb_footer">
       <div class="container">
         <div class="info_fftrr">
-          <div class="stds">Todos los derechos reservados.</div>
+          <div class="stds"><p id="copy">&copy; Todos los derechos Reservados -  </p> </div>
           <div class="dv">
             <p>Sitio desarrollado por</p><a href="https://bartertechnology.com/">Barter Technology</a>
           </div>
@@ -195,5 +238,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
     <script src="js/j_barter.js"></script>
     <script src="js/all.js"></script>
+    <script>
+      var date = new Date();
+      let year = date.getFullYear();
+      let text = document.createTextNode(year);
+      document.getElementById('copy').appendChild(text);
+    </script>
   </body>
 </html>
