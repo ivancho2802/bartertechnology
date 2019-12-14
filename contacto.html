@@ -66,18 +66,19 @@
               <h5>direccion <a href="https://g.page/TaheMiami?share">Sede Miami</a></h5>
             </div>
             <div class="ventana_formmmm">
-              <form>
+              <form method="POST" data-email="example@email.net"
+                    action="https://script.google.com/macros/s/AKfycbwVticpb2As-EbhJHGIMjyXI0b0vk3bDfap2ysA/exec">
                 <div class="line_inptt">
-                  <input type="text" name="" placeholder="Nombre"/>
+                  <input type="text" id="name" name="name"  placeholder="Nombre"/>
                 </div>
                 <div class="line_inptt">
-                  <input type="text" name="" placeholder="Número de contacto"/>
+                  <input type="tel"  id="phone" name="phone"  placeholder="Número de contacto"/>
                 </div>
                 <div class="line_inptt">
-                  <input type="text" name="" placeholder="Email"/>
+                  <input id="email" name="email" type="email" placeholder="Email"/>
                 </div>
                 <div class="line_inptt">
-                  <textarea name="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                  <textarea id="message" name="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
                 </div>
                 <div class="sspppsss_legal">
                   <input type="checkbox" name=""/>
