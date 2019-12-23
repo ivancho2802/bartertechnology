@@ -68,25 +68,34 @@
             <div class="ventana_formmmm">
               <form method="POST" data-email="example@email.net"
                     action="https://script.google.com/macros/s/AKfycbwVticpb2As-EbhJHGIMjyXI0b0vk3bDfap2ysA/exec">
-                <div class="line_inptt">
-                  <input type="text" id="name" name="name"  placeholder="Nombre"/>
-                </div>
-                <div class="line_inptt">
-                  <input type="tel"  id="phone" name="phone"  placeholder="Número de contacto"/>
-                </div>
-                <div class="line_inptt">
-                  <input id="email" name="email" type="email" placeholder="Email"/>
-                </div>
-                <div class="line_inptt">
-                  <textarea id="message" name="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                </div>
-                <div class="sspppsss_legal">
-                  <input type="checkbox" name=""/>
-                  <label>He leido y acepto las condiciones de la LOPD</label>
+                <div  class="form-group">
+                  <div class="line_inptt">
+                    <input type="text" id="name" name="name"  placeholder="Nombre"/>
+                  </div>
+                  <div class="line_inptt">
+                    <input type="tel"  id="phone" name="phone"  placeholder="Número de contacto"/>
+                  </div>
+                  <div class="line_inptt">
+                    <input id="email" name="email" type="email" placeholder="Email"/>
+                  </div>
+                  <div class="line_inptt">
+                    <textarea id="message" name="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                  </div>
+                  <div class="sspppsss_legal">
+                    <input type="checkbox" name=""/>
+                    <label>He leido y acepto las condiciones de la LOPD</label>
+                  </div>
                 </div>
                 <div class="spc_buttt">
-                  <button type="submit">Enviar</button>
+                  <button type="button" class="ngFormSend" onsubmit="handleFormSubmit($event)">Enviar.</button>
                 </div>
+
+                <!-- Customise the Thankyou Message People See when they submit the form: -->
+                <div class="thankyou_message" style="display:none;">
+                  <h2><em>Gracias</em> Por contactarnos!
+                    Pronto estaremos en Contacto!</h2>
+                </div>
+
               </form>
             </div>
           </div>
@@ -124,7 +133,7 @@
     <div class="sb_footer">
       <div class="container">
         <div class="info_fftrr">
-          <div class="stds">Todos los derechos reservados.</div>
+          <div class="stds"><p id="copy">&copy; Todos los derechos Reservados -  </p></div>
           <div class="dv">
             <p>Sitio desarrollado por</p><a href="https://bartertechnology.com/">Barter Technology</a>
           </div>
@@ -136,5 +145,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
     <script src="js/j_barter.js"></script>
     <script src="js/all.js"></script>
+    <script>
+      var date = new Date();
+      let year = date.getFullYear();
+      let text = document.createTextNode(year);
+      document.getElementById('copy').appendChild(text);
+    </script>
+    <script data-cfasync="false" type="text/javascript" src="./js/form-submission-handler.js"></script>
   </body>
 </html>
