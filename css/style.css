@@ -61,7 +61,8 @@ header {
         -o-transition: .4s;
         transition: .4s; }
         header .cntrl_header .spc_logo_header .txt_logo img {
-          width: 100%; }
+          width: 100%;
+          fill: white !important; }
     header .cntrl_header .scp_list_menu .menu {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -662,7 +663,10 @@ footer {
 
 .sb_footer {
   padding: 30px 0;
-  background-color: #0057EE; }
+  background-color: #0057EE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
   .sb_footer .info_fftrr {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -674,7 +678,8 @@ footer {
     -ms-flex-align: center;
     align-items: center; }
     .sb_footer .info_fftrr .stds {
-      color: #FFFFFF; }
+      color: #FFFFFF;
+      margin-right: .5em; }
     .sb_footer .info_fftrr .dv {
       display: -webkit-box;
       display: -ms-flexbox;

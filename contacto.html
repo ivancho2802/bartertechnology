@@ -66,36 +66,26 @@
               <h5>direccion <a href="https://g.page/TaheMiami?share">Sede Miami</a></h5>
             </div>
             <div class="ventana_formmmm">
-              <form method="POST" data-email="example@email.net"
-                    action="https://script.google.com/macros/s/AKfycbwVticpb2As-EbhJHGIMjyXI0b0vk3bDfap2ysA/exec">
-                <div  class="form-group">
-                  <div class="line_inptt">
-                    <input type="text" id="name" name="name"  placeholder="Nombre"/>
-                  </div>
-                  <div class="line_inptt">
-                    <input type="tel"  id="phone" name="phone"  placeholder="Número de contacto"/>
-                  </div>
-                  <div class="line_inptt">
-                    <input id="email" name="email" type="email" placeholder="Email"/>
-                  </div>
-                  <div class="line_inptt">
-                    <textarea id="message" name="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                  </div>
-                  <div class="sspppsss_legal">
-                    <input type="checkbox" name=""/>
-                    <label>He leido y acepto las condiciones de la LOPD</label>
-                  </div>
+              <form>
+                <div class="line_inptt">
+                  <input type="text" name="" placeholder="Nombre"/>
+                </div>
+                <div class="line_inptt">
+                  <input type="text" name="" placeholder="Número de contacto"/>
+                </div>
+                <div class="line_inptt">
+                  <input type="text" name="" placeholder="Email"/>
+                </div>
+                <div class="line_inptt">
+                  <textarea name="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                </div>
+                <div class="sspppsss_legal">
+                  <input type="checkbox" name=""/>
+                  <label>He leido y acepto las condiciones de la LOPD</label>
                 </div>
                 <div class="spc_buttt">
-                  <button type="button" class="ngFormSend" onsubmit="handleFormSubmit($event)">Enviar.</button>
+                  <button type="submit">Enviar</button>
                 </div>
-
-                <!-- Customise the Thankyou Message People See when they submit the form: -->
-                <div class="thankyou_message" style="display:none;">
-                  <h2><em>Gracias</em> Por contactarnos!
-                    Pronto estaremos en Contacto!</h2>
-                </div>
-
               </form>
             </div>
           </div>
@@ -121,11 +111,8 @@
             <div class="info_line"><a href="index.html">Home</a><a href="nosotros.html">Nosotros</a><a href="servicios.html">Servicios</a><a href="contacto.html">Contacto</a></div>
           </div>
           <div class="spc_cl_ftrr">
-            <div class="info_line"><span>Siguenos en nuestro instagram</span></div>
-            <div class="spc_widgt">
-              <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-              <iframe class="lightwidget-widget" src="//lightwidget.com/widgets/82638615b32e5ce28a8da1bc363383ae.html" scrolling="no" allowtransparency="true" style="width:100%;border:0;overflow:hidden;"></iframe>
-            </div>
+            <div class="info_line"><span>Siguenos en nuestras redes sociales</span></div>
+            <div class="info_line"><a href="https://www.facebook.com/barterTechnology/"><i class="fab fa-facebook"></i>FanPage - Facebook</a><a href="https://www.instagram.com/bartertechnology/"><i class="fab fa-instagram"></i>Instagram</a><a href="https://www.youtube.com/channel/UCZHUW9rkY8a0GBziq_QtGdw/featured"><i class="fab fa-youtube"></i>BarterTech TV</a></div>
           </div>
         </div>
       </div>
@@ -133,7 +120,7 @@
     <div class="sb_footer">
       <div class="container">
         <div class="info_fftrr">
-          <div class="stds"><p id="copy">&copy; Todos los derechos Reservados -  </p></div>
+          <div class="stds">Todos los derechos reservados. </div>
           <div class="dv">
             <p>Sitio desarrollado por</p><a href="https://bartertechnology.com/">Barter Technology</a>
           </div>
@@ -145,12 +132,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
     <script src="js/j_barter.js"></script>
     <script src="js/all.js"></script>
-    <script>
-      var date = new Date();
-      let year = date.getFullYear();
-      let text = document.createTextNode(year);
-      document.getElementById('copy').appendChild(text);
-    </script>
-    <script data-cfasync="false" type="text/javascript" src="./js/form-submission-handler.js"></script>
   </body>
 </html>
