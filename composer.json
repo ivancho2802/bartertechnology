@@ -1,0 +1,10 @@
+{
+    "name": "token-platform",
+    "authors": [
+        {
+            "name": "Ivan Diaz",
+            "email": "ivancho2802@hotmail.com"
+        }
+    ],
+    "require": {}
+}
